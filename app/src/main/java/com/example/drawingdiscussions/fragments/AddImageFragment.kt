@@ -12,17 +12,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import com.example.drawingdiscussions.MyApp
 import com.example.drawingdiscussions.customui.BottomSheetDialog
 import com.example.drawingdiscussions.databinding.FragmentAddImageBinding
 import com.example.drawingdiscussions.model.Drawing
 import com.example.drawingdiscussions.customui.ZoomClass
-import com.example.drawingdiscussions.viewmodel.DrawingViewModelFactory
 import com.example.drawingdiscussions.viewmodel.DrawingsViewModel
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference

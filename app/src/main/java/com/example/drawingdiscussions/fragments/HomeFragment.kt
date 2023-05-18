@@ -6,18 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
-import com.example.drawingdiscussions.MyApp
 import com.example.drawingdiscussions.R
 import com.example.drawingdiscussions.adapters.DrawingsAdapter
 import com.example.drawingdiscussions.databinding.FragmentHomeBinding
 import com.example.drawingdiscussions.model.Drawing
-import com.example.drawingdiscussions.viewmodel.DrawingViewModelFactory
 import com.example.drawingdiscussions.viewmodel.DrawingsViewModel
-import dagger.hilt.EntryPoint
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
