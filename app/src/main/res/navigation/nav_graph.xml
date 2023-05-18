@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.drawingdiscussions.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_addImageFragment"
+            app:destination="@id/addImageFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragmentDrawingView"
+            app:destination="@id/fragmentDrawingView" />
+    </fragment>
+    <fragment
+        android:id="@+id/addImageFragment"
+        android:name="com.example.drawingdiscussions.fragments.AddImageFragment"
+        android:label="fragment_add_image"
+        tools:layout="@layout/fragment_add_image" />
+    <fragment
+        android:id="@+id/fragmentDrawingView"
+        android:name="com.example.drawingdiscussions.fragments.FragmentDrawingView"
+        android:label="fragment_drawing_view"
+        tools:layout="@layout/fragment_drawing_view" >
+        <argument
+            android:name="drawing"
+            app:argType="android.os.Bundle" />
+    </fragment>
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014780083654",
+    "project_id": "drawingdiscussions",
+    "storage_bucket": "drawingdiscussions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014780083654:android:abd90fc20a9effdef706c7",
+        "android_client_info": {
+          "package_name": "com.example.drawingdiscussions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014780083654-en35e1clkjk7ulhjkahvjn0dur19um8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBPSyPMgQJbDtmdcxZW8ZWXfuBTxSLTOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014780083654-en35e1clkjk7ulhjkahvjn0dur19um8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
