@@ -5,13 +5,15 @@
  #### - Navigation Components, MVVM, Firebase
  #### - Dagger-Hilt, Coroutines, Material UI, Glide
  
+## Instructions
+ #### - Click on plus icon for adding new drawing
+ #### - after adding image DOUBLE tap on the image to add marker
+ 
 ## Screenshots  
 
 <img width="349" alt="Screenshot 2023-05-19 at 2 18 48 AM" src="https://github.com/MasterBlaster99/DrawingDiscussions/assets/71667923/9f0ecccd-eaee-4531-b6c1-cd57d1e6d39c">
 
 ##
-
-
 <img width="346" alt="Screenshot 2023-05-19 at 2 18 04 AM" src="https://github.com/MasterBlaster99/DrawingDiscussions/assets/71667923/1b97910e-f5d3-486c-b15e-a6c68f0b9425">
 
 ## 
