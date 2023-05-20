@@ -8,6 +8,7 @@
 ## Instructions
  #### - Click on plus icon for adding new drawing
  #### - after adding image DOUBLE tap on the image to add marker
+ #### - For viewing marker description and title click on the marker
  
 ## Screenshots  
 
