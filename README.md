@@ -1,5 +1,5 @@
 # DrawingDiscussions
-  ### An android app for keeping record, marking keypoints for complex drawings in an organized way
+  ### An android app for keeping record, marking keypoints for complex drawings in an organized way. The app is very useful for Civil Engineers or Architects.
 
 ## Tech Used
  #### - Navigation Components, MVVM, Firebase
